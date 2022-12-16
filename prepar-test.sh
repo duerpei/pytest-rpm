@@ -21,3 +21,7 @@ rpm -ivh --force python3-jinja2-3.1.1-r0.aarch64.rpm
 rpm -ivh --force agl-test-framework-1-r0.aarch64.rpm
 
 mkdir -p /var/run/agl-test/logs/log-to-report/
+
+tree /usr/AGL/agl-test/
+
+ptest-runner -l
