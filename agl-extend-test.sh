@@ -3,7 +3,7 @@
 pre_check=`which agl-test`
 
 if [ -n "$pre_check" ] ; then
-    agl-test -vs
+    agl-test -vs tests/bash/run_tests.py
     echo "agl-extend-test is present"
 else
     echo "agl-test is not installed, abort this test"
