@@ -22,6 +22,8 @@ rpm -ivh --force agl-test-framework-1-r0.aarch64.rpm
 
 mkdir -p /var/run/agl-test/logs/log-to-report/
 
+rm -rf /usr/AGL/agl-test/tests/zlib/
+
 ls /usr/AGL/agl-test/
 ls /usr/AGL/agl-test/tests/
 ls /usr/AGL/agl-test/plugins/
